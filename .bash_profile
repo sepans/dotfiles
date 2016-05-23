@@ -8,9 +8,9 @@ done
 unset file
 
 # to help sublimelinter etc with finding my PATHS
-case $- in
-   *i*) source ~/.extra
-esac
+#case $- in
+#   *i*) source ~/.extra
+#esac
 
 
 # generic colouriser
@@ -66,7 +66,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # z beats cd most of the time.
 #   github.com/rupa/z
-source ~/code/z/z.sh
+#source ~/code/z/z.sh
 
 
 
@@ -86,9 +86,9 @@ elif [ -f /etc/bash_completion ]; then
 fi;
 
 # homebrew completion
-if  which brew > /dev/null; then
-    source `brew --repository`/Library/Contributions/brew_bash_completion.sh
-fi;
+#if  which brew > /dev/null; then
+#    source `brew --repository`/Library/Contributions/brew_bash_completion.sh
+#fi;
 
 # hub completion
 if  which hub > /dev/null; then
@@ -120,7 +120,7 @@ shopt -s cdspell;
 
 
 # The next line updates PATH for the Google Cloud SDK.
-source '/Users/paulirish/google-cloud-sdk/path.bash.inc'
+#source '/Users/paulirish/google-cloud-sdk/path.bash.inc'
 
 # The next line enables shell command completion for gcloud.
-source '/Users/paulirish/google-cloud-sdk/completion.bash.inc'
+#source '/Users/paulirish/google-cloud-sdk/completion.bash.inc'
